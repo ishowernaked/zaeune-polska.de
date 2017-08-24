@@ -1,0 +1,19 @@
+header.masthead {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+li {
+    font-size: 20px;
+}
+
+ul.checklist {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul.checklist li p:first-child {
+    float: left;
+}
+ul.checklist li p:last-child {
+    margin-left: 2em;
+}
